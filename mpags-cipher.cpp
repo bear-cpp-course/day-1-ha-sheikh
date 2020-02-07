@@ -1,14 +1,8 @@
 #include <iostream>
+#include <string>
 int main()
 {
-  int a{1};
-  a = 4;
-  std::cout << a << std::endl;
-
-  int b{a};
-  b = 3;
-  std::cout << b << std::endl;
-
-  double c{3};
-  std::cout << c << std::endl;
+  std::string msg {"Hello!"}; // This is how you initialise a string
+  std::cout << msg << "\n";
+  return 0;
 }
